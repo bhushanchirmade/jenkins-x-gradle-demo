@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.99.39.35:5000/bhushanchirmade-gmail-com/jenkins-x-gradle-demo
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: jenkins-x-gradle-demo
